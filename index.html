@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <title></title> 
+    <link href="css/datepicker.min.css" rel="stylesheet" type="text/css">    
+    <link href="css/style.css" rel="stylesheet"">    
+  </head>
+  <body>
+    <h1> График курсов валют по отношению к белорусскому рублю </h1>
+    <div id="chart_div"></div>
+    <div class="container">
+      <button type="button" id="doIt"> Построить за неделю</button>
+      <div class="main_container">
+         <select id="currency">
+           <option value = "USD"> Доллар </option>
+           <option value = "RUB"> Российский рубль </option>
+           <option value = "EUR"> Евро </option>
+         </select>
+         <input type='text' data-range="true" data-multiple-dates-separator=" - " class="datepicker-here"/>
+       </div>
+      <button type="button" id="doIt2">Построить за период</button>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script src="js/datepicker.min.js"></script> 
+    <script src="js/script.js"></script>
+  </body>
+</html> 

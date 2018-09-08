@@ -1,0 +1,24 @@
+.container {
+	display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#chart_div {
+	height: 200px;
+	width: 766px;
+	background-color:#f1f8e9;
+	margin: 0 auto;
+	margin-bottom: 35px;
+	margin-top: 65px;
+}
+
+.main_container {
+	margin: 0 2%;
+}
+
+h1 {
+	text-align: center;
+    color: #1c386f;
+}
